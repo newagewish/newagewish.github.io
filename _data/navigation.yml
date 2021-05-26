@@ -1,7 +1,16 @@
 # main links
+# url 은 _pages 폴더의 md의 주소
 main:
   - title: "나는?"
     url: /about/
+  - title: "카테고리"
+    url: /categories/
+  - title: "태그"
+    url: /tags/
+  - title: "공부"
+    url: /study/
+  - title: "프로젝트"
+    url: /projects/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +19,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+projects-bar:
+  - title: "프로젝트"
+    children:
+    - title: "카카오프렌즈샵"
+      url: /projects/kakaofriends/
