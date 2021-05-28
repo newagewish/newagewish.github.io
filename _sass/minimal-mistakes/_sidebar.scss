@@ -33,6 +33,7 @@
          viewport height - nav height - masthead x-padding
       */
       max-height: calc(100vh - #{$nav-height} - 2em);
+      border-right: 1px solid #cecfd1; //편집
     }
   }
 
@@ -62,7 +63,7 @@
   }
 
   img {
-    width: 100%;
+    padding-right: 1em;
 
     &.emoji {
       width: 20px;
@@ -75,8 +76,11 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    position: absolute;
-    top: 0;
+    position: sticky; //편집
+    float:right;  //편집
+    top: 3em; //편집
+    //position: absolute;
+    //top: 0;
     right: 0;
     width: $right-sidebar-width-narrow;
     margin-right: -1 * $right-sidebar-width-narrow;
@@ -122,8 +126,7 @@
 
   @include breakpoint($large) {
     display: block;
-    //width: auto;  //편집
-    width: 95%;
+    width: auto;  //편집
     height: auto;
   }
 
@@ -131,6 +134,7 @@
     //max-width: 110px; //편집
     //border-radius: 50%; //편집
     border-radius: 10%; //편집
+    width:91%; //편집
 
     @include breakpoint($large) {
       padding: 5px;

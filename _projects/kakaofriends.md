@@ -2,8 +2,7 @@
 title: "카카오프렌즈샵"
 excerpt: "쇼핑몰 웹 서비스 제작"
 header:
-image: /assets/images/projects/kakaofriends/sidebar-1.png
-teaser: /assets/images/projects/kakaofriends/sidebar-1.png
+  teaser: /assets/images/projects/kakaofriends/sidebar-1.png
 sidebar:
 - title: "카카오프렌즈샵"
   image: /assets/images/projects/kakaofriends/sidebar-1.png
@@ -17,7 +16,7 @@ sidebar:
   <br>
   <br>
   백엔드 : <br>&nbsp;`Java`, `Spring Framework`, 
-          <br>&nbsp;`myBatis`, `MySQL`,
+          <br>&nbsp;`myBatis`, `MySQL`
   <br>
   <br>
   서버 : `Tomcat`, `AWS`

@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
-title                    : "어느 곳을 가든 지금 있는 그곳에서부터 길이 시작 된다."
+title                    : "어느 곳을 가든 지금 있는 그곳에서부터 길이 시작된다."
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "박경립"
@@ -41,7 +41,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "preferred-color-scheme" # "github-light" (default), "github-dark"
+    theme                : "boxy-light" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
     branch               : # "master"

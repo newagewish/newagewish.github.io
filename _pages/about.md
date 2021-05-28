@@ -39,8 +39,8 @@ toc: true
 
 ## 💌연락처 및 채널
 - Email : newagewish@gmail.com
-- Blog : [<span style="color:#ff9800;">https://newagewish.github.io/</span>](https://newagewish.github.io/)
-- Github : [<span style="color:#ff9800;">https://github.com/newagewish</span>](https://github.com/newagewish)
+- Blog : [<span style="color: #0092ca;">https://newagewish.github.io/</span>](https://newagewish.github.io/)
+- Github : [<span style="color: #0092ca;">https://github.com/newagewish</span>](https://github.com/newagewish)
 
 ---
 
