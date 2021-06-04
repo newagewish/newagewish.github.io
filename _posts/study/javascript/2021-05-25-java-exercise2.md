@@ -1,11 +1,11 @@
 ---
-title: "자바 포스트 테스트1"
+title: "자바스크립트 포스트 테스트2"
 header:
   video:
     id: XsxDH4HcOWA
     provider: youtube
 categories:
-  - Java
+  - JavaScript
 tags:
   - video
   - layout

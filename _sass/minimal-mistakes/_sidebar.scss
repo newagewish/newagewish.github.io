@@ -34,6 +34,7 @@
       */
       max-height: calc(100vh - #{$nav-height} - 2em);
       border-right: 1px solid #cecfd1; //편집
+      font-size: 0.9em; //편집
     }
   }
 
@@ -60,6 +61,7 @@
     font-family: $sans-serif;
     font-size: $type-size-6;
     line-height: 1.5;
+    margin: 10px 0; //편집
   }
 
   img {
@@ -180,8 +182,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    //margin-top: 10px; //편집
+    //margin-bottom: 20px;  //편집
   }
 }
 

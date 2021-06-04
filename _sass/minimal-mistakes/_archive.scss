@@ -20,6 +20,7 @@
 
 .archive__item {
   position: relative;
+  margin-bottom: 20px;
 
   a {
     position: relative;
@@ -28,6 +29,7 @@
 
   a[rel="permalink"] {
     position: static;
+    text-decoration: none; //편집
   }
 }
 
@@ -44,7 +46,8 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin: 0; //편집
+  //margin-bottom: 0.25em; //편집
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;

@@ -1,18 +1,18 @@
+{% assign category = site.categories %}
+
 <nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox">
   <label for="ac-toc">토글 메뉴</label>
-<h4>전체 글 {{sum}} 개</h4>
+
   <ul class="nav__items">
     <li>
-      <span class="nav__sub-title">카테고리</span>
+      <h4>전체 글 {{sum}} 개</h4>
+    </li>
+    <li>
+      <span class="nav__sub-title">언어</span>
       <ul>
-        {% for category in site.categories %}
-          {% if category[0] == "Java" %}
-            <li><a href="/categories/java/">자바({{category[1].size}})</a></li>
-          {% elsif category[0] == "Layout" %}
-            <li><a href="/categories/layout/">레이아웃({{category[1].size}})</a></li>
-          {% endif %}
-        {% endfor %}
+        <li><a href="/categories/java/">Java({{category.Java.size}})</a></li>
+        <li><a href="/categories/javascript/">JavaScript({{category.JavaScript.size}})</a></li>
       </ul>
     </li>
   </ul>

@@ -35,3 +35,58 @@
 /*
    Page taxonomy
    ========================================================================== */
+
+.page__meta {
+  border-bottom: 1px solid #cecfd1;
+}
+
+.title-span {
+  font-size: 0.6em;
+}
+
+/*
+  prev, next # 편집
+========================================================================== */
+.pagination_prev_next {
+  float: left;
+  width: 100%;
+  margin: 40px 0;
+
+  &--pager {
+    display:block;
+    width: 48%;
+    float: left;
+    background: #263238;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin: 0 1%;
+
+    &:hover {
+      background: #0092ca;
+    }
+
+    .prev_next {
+      display: block;
+      color: #FFFFFF;
+    }
+    .prev_next_str {
+      display: block;
+      text-align: center;
+      font-size: 0.9em;
+      border-bottom: 1px solid #000000;
+      font-weight: bold;
+      margin: 0 auto;
+    }
+    .prev_next_title {
+      display: block;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      font-size: 0.8em;
+      color: #add;
+      overflow: hidden;
+      margin:0 auto;
+    }
+  }
+}
+/* ========================================================================== */

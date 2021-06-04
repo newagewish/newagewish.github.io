@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko"
-title                    : "어느 곳을 가든 지금 있는 그곳에서부터 길이 시작된다."
+title                    : "할 일이 아니라 한 일을 기록하자!"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "박경립"
@@ -274,11 +274,11 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: custom/study-single
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      # share: true
       related: true
   # _pages
   - scope:
@@ -298,6 +298,8 @@ defaults:
       # author_profile: true
       read_time: true
       comments: true
+      sidebar:
+        nav: projects-bar
 
 # Collections
 collections:

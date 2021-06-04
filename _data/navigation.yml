@@ -3,10 +3,10 @@
 main:
   - title: "나는?"
     url: /about/
-  - title: "카테고리"
-    url: /categories/
-  - title: "태그"
-    url: /tags/
+  # - title: "카테고리"
+  #   url: /categories/
+  # - title: "태그"
+  #   url: /tags/
   - title: "공부"
     url: /study/
   - title: "프로젝트"

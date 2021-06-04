@@ -1,4 +1,11 @@
 {% assign document = post | default: page %}
+<footer class="page__meta">
+    {% if site.data.ui-text[site.locale].meta_label %}
+    <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+    {% endif %}
+    {% include page__date.html %}
+    {% include page__taxonomy.html %}
+</footer>
 <!--
 {% if document.read_time or document.show_date %}
   <p class="page__meta">

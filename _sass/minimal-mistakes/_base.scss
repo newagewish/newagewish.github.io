@@ -19,6 +19,14 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+
+  //편집
+  ::-webkit-scrollbar { width: 5.2px;}
+  ::-webkit-scrollbar-track { background-color:#ffffff; }
+  ::-webkit-scrollbar-thumb { background: #0092ca; border-radius: 5px; }
+  ::-webkit-scrollbar-thumb:hover { background: #153e47; }
+  ::-webkit-scrollbar-thumb:active { background: #00adb5; }
+  ::-webkit-scrollbar-button { display: none; }
 }
 
 h1,
