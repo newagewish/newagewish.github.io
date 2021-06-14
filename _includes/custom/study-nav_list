@@ -11,8 +11,8 @@
     <li>
       <span class="nav__sub-title">언어</span>
       <ul>
-        <li><a href="/categories/java/">Java({{category.Java.size}})</a></li>
-        <li><a href="/categories/javascript/">JavaScript({{category.JavaScript.size}})</a></li>
+        <li><a href="/categories/java">Java({{category.Java.size}})</a></li>
+        <li><a href="/categories/javascript">JavaScript({{category.JavaScript.size}})</a></li>
       </ul>
     </li>
   </ul>
